@@ -17,3 +17,6 @@ cout << b << endl;
 
     return 0;
 }
+
+// output:
+// 20   

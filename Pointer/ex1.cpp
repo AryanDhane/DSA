@@ -20,3 +20,10 @@ int main() {
     return 0;
 }
  
+// output:
+// 0x7ffee3b8c8ac (address of a)
+// 0x7ffee3b8c8ac (address of a)
+// 0x7ffee3b8c8a0 (address of ptr)
+// 0x7ffee3b8c8a0 (address of ptr)
+// 10
+// 10
