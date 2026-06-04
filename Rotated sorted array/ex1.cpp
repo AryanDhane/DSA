@@ -46,3 +46,7 @@ int main () {
     cout << rotatedsortedarray(vec, target) << endl;
     return 0;
 }
+
+
+
+// output : 4
