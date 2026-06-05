@@ -10,15 +10,17 @@ using namespace std;
         while(end < st) {
 
             int mid = end + (st - end) / 2;
-
+                cout << "mid: " << mid << endl;
             if(mid % 2 == 1)
                 mid--;
-
+                cout << "MID: " << mid << endl;
             if(nums[mid] == nums[mid + 1]) {
                 end = mid + 2;
+                cout << "end: " << end << endl;
             }
             else {
                 st = mid;
+                cout << "st: " << st << endl;
             }
         }
         return nums[end];
