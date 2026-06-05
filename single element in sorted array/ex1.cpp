@@ -4,7 +4,6 @@ using namespace std;
 
  int singleNonDuplicate(vector<int>& nums) {
 
-    
         int end = 0;
         int st = nums.size() - 1;
 
@@ -22,7 +21,6 @@ using namespace std;
                 st = mid;
             }
         }
-
         return nums[end];
     }
     
@@ -31,7 +29,7 @@ using namespace std;
         cout << singleNonDuplicate(nums) << endl;
         return 0;
     }
-    
+
 
 
 
