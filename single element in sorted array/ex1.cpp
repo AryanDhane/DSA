@@ -16,7 +16,6 @@ using namespace std;
                 mid--;
             if(nums[mid] == nums[mid + 1]) {
                 end = mid + 2;
-                cout << "end: " << end << endl;
             }
             else {
                 st = mid;
