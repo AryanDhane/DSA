@@ -23,8 +23,7 @@ using namespace std;
         }
         return nums[end];
     }
-    
-      
+
     int main() {
         vector<int> nums = {1,1,2,3,3,4,4,8,8};
         cout << singleNonDuplicate(nums) << endl;
