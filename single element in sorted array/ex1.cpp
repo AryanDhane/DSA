@@ -33,4 +33,5 @@ using namespace std;
 
 
 
-// output: 2 
+// output: 2
+// Time complexity: O(log n)
