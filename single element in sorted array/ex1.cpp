@@ -35,3 +35,4 @@ using namespace std;
 
 // output: 2
 // Time complexity: O(log n)
+// Space complexity: O(1)
