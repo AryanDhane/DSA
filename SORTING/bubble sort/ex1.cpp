@@ -20,3 +20,9 @@ int main(){
     }
     return 0;
 }
+
+
+// output : Sorted array:
+// 11 12 22 25 34 64 90
+// Time complexity: O(n^2)
+// Space complexity: O(1)
