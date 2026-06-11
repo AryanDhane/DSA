@@ -21,4 +21,7 @@ int main() {
     cout << "Substring of str1: " << substring << endl;
 
     return 0;
-}
+
+    
+
+}       
