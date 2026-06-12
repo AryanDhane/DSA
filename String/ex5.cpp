@@ -25,6 +25,7 @@ string reverseWords(string s) {
 
 int main(){
     string s;
+    cout << "Enter the string: ";
     getline(cin, s);
     cout << reverseWords(s) << endl;
     return 0;
