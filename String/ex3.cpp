@@ -4,27 +4,27 @@
 using namespace std;
 
 bool isPalindrome(string s) {
-    int left = 0;
-    int right = s.length() - 1;
+    int st = 0;
+    int end = s.length() - 1;
 
-    while (left < right) {
+    while (st < end) {
 
         // Skip non-alphanumeric characters
-        while (left < right && !isalnum(s[left])) {
-            left++;
+        while (st < end && !isalnum(s[st])) {
+            st++;
         }
 
-        while (left < right && !isalnum(s[right])) {
-            right--;
+        while (st < end && !isalnum(s[end])) {
+            end--;
         }
 
         // Compare characters (case-insensitive)
-        if (tolower(s[left]) != tolower(s[right])) {
+        if (tolower(s[st]) != tolower(s[end])) {
             return false;
         }
 
-        left++;
-        right--;
+        st++;
+        end--;
     }
 
     return true;
