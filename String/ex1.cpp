@@ -20,5 +20,13 @@ int main() {
     string substring = str1.substr(7, 5);
     cout << "Substring of str1: " << substring << endl;
 
+    string str3 = "hello, world!";
+    // Comparing strings
+    if (str1 == str3) {
+        cout << "str1 and str3 are equal." << endl;
+    } else {
+        cout << "str1 and str3 are not equal." << endl;
+    }
+
     return 0;
 }
