@@ -13,10 +13,10 @@ int main() {
     vector<char> s = {'h', 'e', 'l', 'l', 'o'};
     reverseString(s);
 
-    cout << "Reversed string: ";
+    cout << "Reversed string: " << endl;
     for (char c : s) {
         cout << c;
-    }
+    } 
     cout << endl;
 
     return 0;
