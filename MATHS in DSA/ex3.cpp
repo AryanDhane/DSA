@@ -21,11 +21,17 @@ int reverseNumber(int n) {
 
      
 int main() {
-    int n = 12345;
+    int n = 12321;
+    
+    if(n==reverseNumber(n)){
+        cout << "is palindrome" << endl;
+    }else {
+            cout << "not palindrome"<< endl;
+        }
+    
 
-
-    cout << "Original Number: " << n << endl;
-    cout << "Reversed Number: " << reverseNumber(n) << endl;
+    // cout << "Original Number: " << n << endl;
+    // cout << "Reversed Number: " << reverseNumber(n) << endl;
 
     return 0;
 }
