@@ -19,7 +19,7 @@ int reverseNumber(int n) {
     return rev;
 }
 
-    
+     
 int main() {
     int n = 12345;
 
