@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std; 
 
-    
+
 
 bool isprime(int n){
     for(int i=2; i*i<=n; i++){
@@ -13,7 +13,7 @@ bool isprime(int n){
     return true;
 }
 
-int main(){
+into main(){
     int n = 4;
     cout << isprime(n) << endl ;
      
