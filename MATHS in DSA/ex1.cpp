@@ -13,7 +13,7 @@ bool isprime(int n){
     return true;
 }
 
-into main(){
+int main(){
     int n = 4;
     cout << isprime(n) << endl ;
      
