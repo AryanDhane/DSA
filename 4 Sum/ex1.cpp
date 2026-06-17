@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <unordered_set>
 using namespace std;
 
 vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -38,4 +37,15 @@ vector<vector<int>> fourSum(vector<int>& nums, int target) {
 
     }
     return ans;        
-}    
+}  
+
+int main() {
+    int target = 4;
+    vector<vector<int>>nums= {2,3,2,3,1,1,2,1,3,3};
+
+    int A = fourSum(nums,target);
+
+    cout<<A<< endl;
+
+    return 0;
+}
