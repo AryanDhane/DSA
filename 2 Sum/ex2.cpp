@@ -1,5 +1,4 @@
-// find Missing and repeating value
-
+// find duplicate value
 
 #include <iostream>
 #include <vector>
@@ -21,7 +20,11 @@ int findDuplicate(vector<int>& nums) {
 }
 int main () {
 
-     
+     vector<int> nums = {1, 3, 4, 2, 2};
 
-    return 0 ;
-}
+    int duplicate = findDuplicate(nums);
+
+    cout << "Duplicate Number: " << duplicate << endl;
+
+    return 0;
+} 
