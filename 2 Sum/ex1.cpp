@@ -4,31 +4,37 @@
 
 using namespace std;
 
-vector<int> twoSum(vector<int>& nums, int target) {
+vector<int> twoSum(vector<int>& arr, int target) {
     unordered_map<int, int> mp;
+    vector<int> ans;
 
-    for (int i = 0; i < nums.size(); i++) {
-        int complement = target - nums[i];
+    int n = arr.size();
 
-        if (mp.find(complement) != mp.end()) {
-            return {mp[complement], i};
+    for (int i = 0; i < n; i++) {
+        int first = arr[i];
+        int sec = target - first;
+
+        if (mp.find(sec) != mp.end()) {
+            ans.push_back(i);
+            ans.push_back(mp[sec]);
+            break;
         }
 
-        mp[nums[i]] = i;
+        mp[first] = i;
     }
 
-    return {};
+    return ans;
 }
 
 int main() {
-    vector<int> nums = {2, 7, 11, 15};
+    vector<int> arr = {2, 7, 11, 15};
     int target = 9;
 
-    vector<int> result = twoSum(nums, target);
+    vector<int> ans = twoSum(arr, target);
 
     cout << "Indices: ";
-    for (int index : result) {
-        cout << index << " ";
+    for (int i = 0; i < ans.size(); i++) {
+        cout << ans[i] << " ";
     }
     cout << endl;
 
