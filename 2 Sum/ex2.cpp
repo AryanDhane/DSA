@@ -27,4 +27,4 @@ int main () {
     cout << "Duplicate Number: " << duplicate << endl;
 
     return 0;
-} 
+}
