@@ -30,3 +30,7 @@ int main () {
 
     return 0;
 }
+
+
+
+// output :- Duplicate Number: 2
