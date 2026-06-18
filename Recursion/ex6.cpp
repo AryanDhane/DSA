@@ -30,11 +30,11 @@ void solve(vector<int>& nums, vector<vector<int>>& ans,
 
 int main () {
 
-    vector<int>num = {1, 2, 3, 4};
+    vector<int>nums = {1, 2, 3, 4};
     vector<int>ans;
     vector<int>temp;
 
-    solve(nums, ans, temp, 0)
+    solve(nums, ans, temp, 0);
 
     return 0;
 }
