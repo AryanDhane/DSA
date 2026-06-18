@@ -1,3 +1,6 @@
+// summ of all numbers
+
+
 #include <iostream>
 using namespace std;
 
