@@ -17,7 +17,6 @@ void solve(vector<int>& nums, vector<vector<int>>& ans,
             temp.pop_back();                 
         }
     }
-
     vector<vector<int>> subsets(vector<int>& nums) {
 
         vector<vector<int>> ans;
